@@ -1,0 +1,9 @@
+open:
+  banking:
+    url: https://api.lloydsbank.com/open-banking/v2.2/atms
+
+web-client:
+  timeouts:
+    connection: 5000
+    read: 5000
+  max-buffer-size: 16777216
